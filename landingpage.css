@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: url("images/f2.jpg");
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.main{
+    max-width: 1100px;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    border: 1px solid transparent;
+}
+ul li a{ 
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+.active{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    margin-top: 25px;
+    margin-left: 0px;
+    
+}
+.centre_text{
+    margin-top: 100px;
+    margin-left: 520px;
+    font-size: 30px;
+}
+h1{
+    color: white;
+}
